@@ -11,6 +11,7 @@ const displayCountries = countries => {
     container.innerHTML = countryHTML.join(' ');
 }
 const getCountryHTML = country => {
+    // const { name, capital, flag } = country;
     return `
         <div class="country">
             <h2>${country.name}</h2>
